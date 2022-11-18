@@ -1,0 +1,12 @@
+C:\Projects\ImportExport\ImportExport\ImportExportCommon\bin\Debug\net6.0\ImportExportCommon.deps.json
+C:\Projects\ImportExport\ImportExport\ImportExportCommon\bin\Debug\net6.0\ImportExportCommon.dll
+C:\Projects\ImportExport\ImportExport\ImportExportCommon\bin\Debug\net6.0\ImportExportCommon.pdb
+C:\Projects\ImportExport\ImportExport\ImportExportCommon\obj\Debug\net6.0\ImportExportCommon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ImportExport\ImportExport\ImportExportCommon\obj\Debug\net6.0\ImportExportCommon.AssemblyInfoInputs.cache
+C:\Projects\ImportExport\ImportExport\ImportExportCommon\obj\Debug\net6.0\ImportExportCommon.AssemblyInfo.cs
+C:\Projects\ImportExport\ImportExport\ImportExportCommon\obj\Debug\net6.0\ImportExportCommon.csproj.CoreCompileInputs.cache
+C:\Projects\ImportExport\ImportExport\ImportExportCommon\obj\Debug\net6.0\ImportExportCommon.dll
+C:\Projects\ImportExport\ImportExport\ImportExportCommon\obj\Debug\net6.0\ImportExportCommon.pdb
+C:\Projects\ImportExport\ImportExport\ImportExportCommon\obj\Debug\net6.0\ref\ImportExportCommon.dll
+C:\Projects\ImportExport\ImportExport\ImportExportCommon\bin\Debug\net6.0\ref\ImportExportCommon.dll
+C:\Projects\ImportExport\ImportExport\ImportExportCommon\obj\Debug\net6.0\ImportExportCommon.csproj.AssemblyReference.cache

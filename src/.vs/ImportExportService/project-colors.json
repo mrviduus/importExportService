@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0d7ad678-00b1-4720-8603-9a016e211de1": {
+      "ProjectGuid": "0d7ad678-00b1-4720-8603-9a016e211de1",
+      "DisplayName": "WorkerService",
+      "ColorIndex": 0
+    },
+    "90fb080d-8be5-4358-9a1a-eb100ad59e86": {
+      "ProjectGuid": "90fb080d-8be5-4358-9a1a-eb100ad59e86",
+      "DisplayName": "ImportExportCommon",
+      "ColorIndex": 1
+    },
+    "baaf6bd7-56da-40f9-8579-a965ea67e506": {
+      "ProjectGuid": "baaf6bd7-56da-40f9-8579-a965ea67e506",
+      "DisplayName": "Contracts",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

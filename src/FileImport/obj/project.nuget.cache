@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rJS6VQRGL7TecdGgPbqKu/0tl6n24LPc/qTFVC7X5hBVQzqdGCJFU8d98i+cTlb0L5qhBs3YHB0qevQ9u1SItA==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\ImportExportService\\src\\FileImport\\FileImport.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mrvid\\.nuget\\packages\\exceldatareader\\3.6.0\\exceldatareader.3.6.0.nupkg.sha512",
+    "C:\\Users\\mrvid\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
