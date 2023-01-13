@@ -2,8 +2,8 @@
 
 public enum JobStatus
 {
-    Created,
-    Running,
-    Failed,
-    Completed
+	Created,
+	Running,
+	Failed,
+	Completed
 }

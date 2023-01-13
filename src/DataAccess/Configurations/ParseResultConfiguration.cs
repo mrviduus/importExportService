@@ -6,18 +6,18 @@ namespace DataAccess.Configurations;
 
 public class ParseResultConfiguration : IEntityTypeConfiguration<ParseResult>
 {
-    public void Configure(EntityTypeBuilder<ParseResult> builder)
-    {
-        builder.HasKey(_ => _.Id);
+	public void Configure(EntityTypeBuilder<ParseResult> builder)
+	{
+		builder.HasKey(_ => _.Id);
 
-        builder.HasIndex(x => x.JobId)
-            .IsUnique();
+		builder.HasIndex(x => x.JobId)
+			.IsUnique();
 
-        builder.HasOne(parseResult => parseResult.Job)
-            .WithOne(job => job.ParseResult)
-            .HasForeignKey<ParseResult>(parseResult => parseResult.JobId);
+		builder.HasOne(parseResult => parseResult.Job)
+			.WithOne(job => job.ParseResult)
+			.HasForeignKey<ParseResult>(parseResult => parseResult.JobId);
 
-        builder.Property(_ => _.ErrorsJson)
-            .HasColumnType("NVARCHAR");
-    }
+		builder.Property(_ => _.ErrorsJson)
+			.HasColumnType("NVARCHAR");
+	}
 }

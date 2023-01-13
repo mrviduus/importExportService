@@ -6,18 +6,18 @@ namespace DataAccess.DependencyInjection;
 
 public static class ServiceCollectionExtensions
 {
-    public static IServiceCollection ConfigureDb(this IServiceCollection services,
-        IConfiguration configuration,
-        string dbConnectionStringName = "DBConnectionString")
-    {
-        services.AddDbContext<ApplicationDatabaseContext>(options =>
-        {
-            options.UseSqlite(configuration.GetConnectionString(dbConnectionStringName));
-        });
+	public static IServiceCollection ConfigureDb(this IServiceCollection services,
+		IConfiguration configuration,
+		string dbConnectionStringName = "DBConnectionString")
+	{
+		services.AddDbContext<ApplicationDatabaseContext>(options =>
+		{
+			options.UseSqlite(configuration.GetConnectionString(dbConnectionStringName));
+		});
 
-        services.AddHealthChecks()
-            .AddSqlite(configuration.GetConnectionString(dbConnectionStringName));
+		services.AddHealthChecks()
+			.AddSqlite(configuration.GetConnectionString(dbConnectionStringName));
 
-        return services;
-    }
+		return services;
+	}
 }

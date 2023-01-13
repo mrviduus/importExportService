@@ -4,18 +4,18 @@ namespace DataAccess;
 
 internal class ApplicationDatabaseContextFactory
 {
-    public static ApplicationDatabaseContext CreateContext(string connectionString)
-    {
-        DbContextOptions<ApplicationDatabaseContext> options = GetDbContextOptions(connectionString);
+	public static ApplicationDatabaseContext CreateContext(string connectionString)
+	{
+		DbContextOptions<ApplicationDatabaseContext> options = GetDbContextOptions(connectionString);
 
-        return new ApplicationDatabaseContext(options);
-    }
+		return new ApplicationDatabaseContext(options);
+	}
 
-    private static DbContextOptions<ApplicationDatabaseContext> GetDbContextOptions(string connectionString)
-    {
-        var dbContextOptionsBuilder = new DbContextOptionsBuilder<ApplicationDatabaseContext>();
-        dbContextOptionsBuilder.UseSqlite(connectionString);
+	private static DbContextOptions<ApplicationDatabaseContext> GetDbContextOptions(string connectionString)
+	{
+		var dbContextOptionsBuilder = new DbContextOptionsBuilder<ApplicationDatabaseContext>();
+		dbContextOptionsBuilder.UseSqlite(connectionString);
 
-        return dbContextOptionsBuilder.Options;
-    }
+		return dbContextOptionsBuilder.Options;
+	}
 }
